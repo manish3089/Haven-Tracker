@@ -14,4 +14,3 @@ Exploratory Data Analysis of major Indian stocks using Python and yfinance API. 
 
 - Python (pandas, yfinance, matplotlib, seaborn, plotly)
 - Jupyter Notebook
-
