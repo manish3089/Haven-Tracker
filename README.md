@@ -17,7 +17,7 @@ This project explores the **"flight-to-safety" behavior** in financial markets �
 
 ## 📌 Key Insights
 
-- 2024 had the highest number of "flight-to-safety" days — possibly triggered by the Ukraine invasion and global inflation concerns.
+- 2024 had the highest number of "flight-to-safety" days — possibly triggered by global inflation concerns.
 - Gold showed its traditional role as a **safe haven**, especially during market shocks.
 - Visualization reveals inverse correlation patterns and volatility clustering.
 
