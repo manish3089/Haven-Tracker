@@ -1,4 +1,4 @@
-# 📊 Flight to Safety Analysis: Gold (XAU/USD) vs EUR/USD
+# 📊 Gold-EUR/USD-Dynamics
 
 This project explores the **"flight-to-safety" behavior** in financial markets — analyzing how investors shift capital during times of uncertainty. Using historical data for **Gold (GC=F)** and **EUR/USD**, we investigate price trends, volatility, and macroeconomic events to uncover meaningful insights.
 
