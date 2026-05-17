@@ -1,29 +1,31 @@
-# 📊 Gold-EUR/USD-Dynamics
+# Haven Tracker
 
-This project explores the **"flight-to-safety" behavior** in financial markets — analyzing how investors shift capital during times of uncertainty. Using historical data for **Gold (GC=F)** and **EUR/USD**, we investigate price trends, volatility, and macroeconomic events to uncover meaningful insights.
+A market analysis tool for studying flight-to-safety behaviour — days when one asset rises while another falls, often a signal that investors are moving out of risk.
 
----
-
-## 🚀 Project Highlights
-
-- Downloaded real-time financial data using [`yfinance`](https://pypi.org/project/yfinance/)
-- Explored and visualized **daily percentage change** in Gold and EUR/USD
-- Identified **"flight-to-safety" days** where:
-  - 📈 Gold price rises
-  - 📉 EUR/USD falls
-- Mapped behavior against global events (Ukraine war, SVB crisis, etc.)
+Live: [haventracker.streamlit.app](https://haventracker.streamlit.app/)
 
 ---
 
-## 📌 Key Insights
+## What it does
 
-- 2024 had the highest number of "flight-to-safety" days — possibly triggered by global inflation concerns.
-- Gold showed its traditional role as a **safe haven**, especially during market shocks.
-- Visualization reveals inverse correlation patterns and volatility clustering.
+You pick any two tickers from Yahoo Finance and a date range. The dashboard pulls historical prices, computes daily returns, and flags days where the two assets moved in opposite directions. You can also drop in dates for global events to see how they line up with the data.
+
+The default pair is Gold (GC=F) and EUR/USD, but it works with any combination — equities, commodities, currencies, indices.
 
 ---
 
-## 📊 Tools Used
+## Analysis
 
-- Python (pandas, yfinance, matplotlib, seaborn, plotly)
-- Jupyter Notebook
+- Daily % change for both assets, plotted over time
+- Flight-to-safety day count and rate across the full period
+- Yearly breakdown of how often the divergence occurred
+- Scatter of all trading days with flight-to-safety days highlighted
+- Table of individual days with prices and returns
+
+---
+
+## Stack
+
+- Python — pandas, yfinance, matplotlib
+- Streamlit
+- Jupyter Notebook (original exploration)
