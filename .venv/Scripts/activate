@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Manish Chaudhary\XAUUSD-EURUSD-eda\.venv"
+VIRTUAL_ENV="C:\Users\Manish Chaudhary\Gold-EUR-USD-Dynamics\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
